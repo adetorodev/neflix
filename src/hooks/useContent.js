@@ -8,7 +8,7 @@ export default function useContent(target) {
 
     useEffect(() => {
         firebase
-            .firebase()
+            .firestore()
             .collection(target)
             .get()
             .then((snapshot) => {
