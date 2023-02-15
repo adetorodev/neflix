@@ -71,7 +71,7 @@ export const Feature = styled(Container)`
 
 export const Text = styled.p`
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   line-height: normal;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
   margin: 0;
@@ -79,7 +79,7 @@ export const Text = styled.p`
 
 export const FeatureCallout = styled.h2`
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   line-height: normal;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
